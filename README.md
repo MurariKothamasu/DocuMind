@@ -21,7 +21,7 @@ This monorepo is organized into two main parts:
 | **Frontend** | React, Vite, React Router, Tailwind CSS, Framer Motion, Axios |
 | **Backend** | Node.js, Express, MongoDB, Mongoose, JWT, bcrypt, Multer |
 | **AI** | OpenAI (gpt-4o-mini) |
-| **File Parsing** | `pdf-parse`, `canvas` |
+| **File Parsing** | `pdf-parse`,     `tesseract.js`|
 
 ## 🚀 Getting Started (Local Development)
 
