@@ -1,5 +1,7 @@
 # DocuMind 🧠📄
 
+**Live Demo:** [**https://docu-mind-frontend-three.vercel.app**](https://docu-mind-frontend-three.vercel.app)
+
 This is the main monorepo for DocuMind, an intelligent document summarizer built with React and Node.js. It contains both the frontend application and the backend API in one repository.
 
 
@@ -22,7 +24,7 @@ This monorepo is organized with a single root folder containing a global `.gitig
 | **Frontend** | React, Vite, React Router, Tailwind CSS, Framer Motion, Axios |
 | **Backend** | Node.js, Express, MongoDB, Mongoose, JWT, bcrypt, Multer |
 | **AI** | OpenAI (gpt-4o-mini) |
-| **File Parsing** | `pdf-parse`,     `tesseract.js`|
+| **File Parsing** | `pdf-parse`, `tesseract.js`|
 
 ## 🚀 Getting Started (Local Development)
 
