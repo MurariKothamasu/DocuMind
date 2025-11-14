@@ -2,11 +2,10 @@
 
 This is the main monorepo for DocuMind, an intelligent document summarizer built with React and Node.js. It contains both the frontend application and the backend API in one repository.
 
+
 ## 📂 Repository Structure
 
-This monorepo is organized into two main parts:
-
-DocuMind/ ├── .gitignore (The global ignore file) │ ├── backend/ (The Node.js, Express, & MongoDB API) │ ├── package.json │ ├── index.js │ ├── routers/ │ └── ... │ └── frontend/ (The React & Vite client application) ├── package.json ├── src/ ├── public/ └── ...
+This monorepo is organized with a single root folder containing a global `.gitignore` file, a `backend/` folder for the Node.js API, and a `frontend/` folder for the React client application.
 
 ## ✨ Core Features
 
