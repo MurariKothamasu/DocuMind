@@ -1,0 +1,43 @@
+# ----------------------------------------
+# Dependencies
+# ----------------------------------------
+# Ignore node_modules in all subdirectories (frontend and backend)
+/node_modules
+node_modules/
+
+# ----------------------------------------
+# Environment & Secret Files
+# ----------------------------------------
+# Ignore all .env files (.env, .env.local, .env.production, etc.)
+.env*
+# But DO NOT ignore example/template files
+!.env.example
+
+# ----------------------------------------
+# OS & Editor Files
+# ----------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# ----------------------------------------
+# Log Files
+# ----------------------------------------
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+
+# ----------------------------------------
+# Build & Deployment
+# ----------------------------------------
+# Standard build folders
+dist/
+build/
+
+# Vercel deployment cache
+.vercel/
