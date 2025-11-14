@@ -6,6 +6,8 @@ This is the main monorepo for DocuMind, an intelligent document summarizer built
 
 This monorepo is organized into two main parts:
 
+DocuMind/ ├── .gitignore (The global ignore file) │ ├── backend/ (The Node.js, Express, & MongoDB API) │ ├── package.json │ ├── index.js │ ├── routers/ │ └── ... │ └── frontend/ (The React & Vite client application) ├── package.json ├── src/ ├── public/ └── ...
+
 ## ✨ Core Features
 
 * **Secure JWT Authentication:** Full signup, login, and logout flow using `httpOnly` cookies.
